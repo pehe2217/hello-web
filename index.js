@@ -6,6 +6,9 @@ var app = express();
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/views'));
 
+var port = process.env.PORT || 3000; // the javascript or-operator,
+                                     // "if this is false, use this instead"
+
 app.use(express.static(path.join(__dirname, '/static')));
 
 var server = app.listen(3000, function () {
