@@ -16,6 +16,7 @@
     "url": "https://github.com/pehe2217/hello-web/issues"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "hbs": "^4.0.1"
   }
 }
