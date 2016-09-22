@@ -1,0 +1,21 @@
+{
+  "name": "hello-web",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pehe2217/hello-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pehe2217/hello-web/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
